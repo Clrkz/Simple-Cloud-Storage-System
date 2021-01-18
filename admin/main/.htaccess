@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !.*\.(png|ico|gif|jpg|css|js|ttf|eot|svg|woff|cur)$ [NC]
+RewriteRule ^ - [L,R=404]
